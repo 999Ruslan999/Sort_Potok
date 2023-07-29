@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public interface Sorter {
+public interface Sorter {
+
+    default void sort(int[] array) {
+
+    }
+
 }
